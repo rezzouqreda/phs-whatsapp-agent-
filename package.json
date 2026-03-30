@@ -1,20 +1,15 @@
 {
   "name": "phs-whatsapp-agent",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Agent WhatsApp IA — PHS Environnement",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.24.0",
     "express": "^4.18.2",
-    "puppeteer": "^22.0.0",
     "twilio": "^5.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
